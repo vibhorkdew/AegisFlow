@@ -22,6 +22,15 @@ pipeline {
             }
         }
 
+        stage('Dependency Vulnerability Scan') {
+
+            steps {
+
+                sh 'python3 -m pip_audit || true'
+
+            }
+        }
+
         stage('Deploy Container') {
 
             steps {
