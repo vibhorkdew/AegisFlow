@@ -39,6 +39,14 @@ pipeline {
 
             }
         }
+	stage('Gitleaks Secret Scan') {
+
+    	    steps {
+
+       	        sh 'gitleaks detect . || true'
+
+   	    }
+	}
 
         stage('Deploy Container') {
 
