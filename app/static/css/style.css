@@ -1,0 +1,173 @@
+/* ===== GLOBAL ===== */
+
+body {
+    background-color: #0d1117;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+    background-color: #161b22;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #30363d;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #58a6ff;
+}
+
+.nav-links a {
+    color: #c9d1d9;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #58a6ff;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #58a6ff;
+    text-shadow: 0 0 15px rgba(88, 166, 255, 0.5);
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 700px;
+    color: #c9d1d9;
+    margin-bottom: 40px;
+}
+
+/* ===== BUTTONS ===== */
+
+.btn {
+    padding: 14px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #238636;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #2ea043;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: #21262d;
+    color: white;
+    border: 1px solid #30363d;
+}
+
+.btn-secondary:hover {
+    border-color: #58a6ff;
+    color: #58a6ff;
+    transform: translateY(-2px);
+}
+
+/* ===== FORM CARD ===== */
+
+.form-container {
+    width: 400px;
+    margin: 80px auto;
+    background: #161b22;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #30363d;
+    box-shadow: 0 0 25px rgba(88, 166, 255, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #58a6ff;
+}
+
+/* ===== INPUTS ===== */
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #c9d1d9;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #30363d;
+    background: #0d1117;
+    color: white;
+    font-size: 15px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #58a6ff;
+    box-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
+}
+
+/* ===== DASHBOARD ===== */
+
+.dashboard {
+    padding: 60px;
+}
+
+.dashboard-card {
+    background: #161b22;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #30363d;
+    box-shadow: 0 0 20px rgba(88, 166, 255, 0.08);
+}
+
+.dashboard-card h2 {
+    color: #58a6ff;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #8b949e;
+    border-top: 1px solid #30363d;
+    margin-top: 50px;
+}

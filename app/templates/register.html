@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Register - AegisFlow</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h2>
+            Register
+        </h2>
+
+        <form>
+
+            <div class="input-group">
+
+                <label>
+                    Username
+                </label>
+
+                <input type="text"
+                       placeholder="Create username">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>
+                    Password
+                </label>
+
+                <input type="password"
+                       placeholder="Create password">
+
+            </div>
+
+            <button class="btn btn-primary"
+                    type="submit">
+
+                Register
+
+            </button>
+
+        </form>
+
+        <!-- LOGIN LINK -->
+
+        <div style="text-align:center; margin-top:25px;">
+
+            <p style="color:#c9d1d9;">
+
+                Already a customer?
+
+                <a href="/login"
+                   style="color:#58a6ff; text-decoration:none;">
+
+                    Login
+
+                </a>
+
+            </p>
+
+        </div>
+
+        <!-- BACK HOME -->
+
+        <div style="text-align:center; margin-top:10px;">
+
+            <a href="/"
+               class="btn btn-secondary">
+
+                Back to Home
+
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
