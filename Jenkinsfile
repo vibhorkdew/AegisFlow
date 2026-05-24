@@ -31,6 +31,15 @@ pipeline {
             }
         }
 
+        stage('Trivy Container Scan') {
+
+            steps {
+
+                sh 'trivy image aegisflow-aegisflow || true'
+
+            }
+        }
+
         stage('Deploy Container') {
 
             steps {
