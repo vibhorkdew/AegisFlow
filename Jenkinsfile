@@ -13,6 +13,15 @@ pipeline {
             }
         }
 
+        stage('Bandit Security Scan') {
+
+            steps {
+
+                sh 'python3 -m bandit -r .'
+
+            }
+        }
+
         stage('Deploy Container') {
 
             steps {
@@ -21,8 +30,8 @@ pipeline {
 
                 sh 'docker run -d --name aegisflow_container -p 7000:7000 aegisflow-aegisflow'
 
-    }
-}
+            }
+        }
 
     }
 
