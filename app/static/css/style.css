@@ -22,7 +22,7 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #58a6ff;
+    color: #54616b;
 }
 
 .nav-links a {
@@ -33,7 +33,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #58a6ff;
+    color: #54616b;
 }
 
 /* ===== HERO SECTION ===== */
@@ -51,7 +51,7 @@ body {
 .hero h1 {
     font-size: 60px;
     margin-bottom: 20px;
-    color: #58a6ff;
+    color: #54616b;
     text-shadow: 0 0 15px rgba(88, 166, 255, 0.5);
 }
 
@@ -93,8 +93,8 @@ body {
 }
 
 .btn-secondary:hover {
-    border-color: #58a6ff;
-    color: #58a6ff;
+    border-color: #54616b;
+    color: #54616b;
     transform: translateY(-2px);
 }
 
@@ -113,7 +113,7 @@ body {
 .form-container h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: #58a6ff;
+    color: #54616b;
 }
 
 /* ===== INPUTS ===== */
@@ -140,7 +140,7 @@ body {
 
 .input-group input:focus {
     outline: none;
-    border-color: #58a6ff;
+    border-color: #54616b;
     box-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
 }
 
@@ -159,7 +159,7 @@ body {
 }
 
 .dashboard-card h2 {
-    color: #58a6ff;
+    color: #54616b;
 }
 
 /* ===== FOOTER ===== */
